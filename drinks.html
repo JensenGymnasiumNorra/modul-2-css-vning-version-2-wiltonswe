@@ -7,63 +7,59 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="food.html">Food</a></li>
-          <li><a href="drinks.html">Drinks</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="locations.html">Locations</a></li>
-        </ul>
-      </nav>
-    </header>
+<header>
+  <fieldset class="nav-fieldset">
+
+    <div class="nav-title">The Burger Joint</div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="drinks.html" class="active">Drinks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="locations.html">Locations</a></li>
+      </ul>
+    </nav>
+
+  </fieldset>
+</header>
+
 
     <main>
-      <section>
-        <h1>Ice cold drinks</h1>
-        <img src="cold-drinks.webp" alt="Ice cold drinks" class="drinks-image">
-        <table>
-          <tr>
-            <th>Drink</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>Coke</td>
-            <td>15$</td>
-          </tr>
-          <tr>
-            <td>Fanta</td>
-            <td>2$</td>
-          </tr>
-          <tr>
-            <td>Sprite</td>
-            <td>5$</td>
-          </tr>
-        </table>
-      </section>
-      <section>
-        <h1>Hot drinks</h1>
-        <img src="hot-drinks.jpg" alt="Hot drinks" class="drinks-image">
-        <table>
-          <tr>
-            <th>Drink</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>Coffee</td>
-            <td>15$</td>
-          </tr>
-          <tr>
-            <td>Tea</td>
-            <td>2$</td>
-          </tr>
-          <tr>
-            <td>Hot chocolate</td>
-            <td>5$</td>
-          </tr>
-        </table>
-      </section>
+<section class="drink-section">
+  <h1>Ice Cold Drinks</h1>
+
+  <img src="cold-drinks.webp" alt="Ice cold drinks" class="drinks-image">
+
+  <fieldset class="drink-fieldset">
+    <legend>Available Drinks</legend>
+
+    <div class="drink-list">
+      <p><strong>Coke</strong> — 15$</p>
+      <p><strong>Fanta</strong> — 2$</p>
+      <p><strong>Sprite</strong> — 5$</p>
+    </div>
+  </fieldset>
+</section>
+
+<section class="drink-section">
+  <h1>Hot Drinks</h1>
+
+  <img src="hot-drinks.jpg" alt="Hot drinks" class="drinks-image">
+
+  <fieldset class="drink-fieldset">
+    <legend>Available Hot Drinks</legend>
+
+    <div class="drink-list">
+      <p><strong>Coffee</strong> — 15$</p>
+      <p><strong>Tea</strong> — 2$</p>
+      <p><strong>Hot Chocolate</strong> — 5$</p>
+    </div>
+  </fieldset>
+</section>
+
+
     </main>
 
     <footer>

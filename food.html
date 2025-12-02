@@ -6,58 +6,76 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="food.html">Food</a></li>
-          <li><a href="drinks.html">Drinks</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="locations.html">Locations</a></li>
-        </ul>
-      </nav>
-    </header>
+<header>
+  <fieldset class="nav-fieldset">
+
+    <div class="nav-title">The Burger Joint</div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="food.html" class="active">Food</a></li>
+        <li><a href="drinks.html">Drinks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="locations.html">Locations</a></li>
+      </ul>
+    </nav>
+
+  </fieldset>
+</header>
+
 
     <main>
-              <h1>Burgers</h1>
 
-      <section>
-        <div>
-          <h2>Classic Burger</h2>
-          <img src="classic-burger.webp" alt="Classic burger" class="food-image">
-          <p>A delicious burger with all the fixings.</p>
-        </div>
-        <div>
-          <h2>Chicken Burger</h2>
-          <img src="chicken-burger.webp" alt="Chicken burger" class="food-image">
-          <p>A delicious chicken burger with all the fixings.</p>
-        </div>
-        <div>
-          <h2>Vegetarian Burger</h2>
-          <img src="vegetarian-burger.jpg" alt="Vegetarian burger" class="food-image">
-          <p>A delicious vegetarian burger with all the fixings.</p>
-        </div>
-      </section>
-        <h1>Side Dishes</h1>
 
-      <section>
-        <div>
-          <h2>Fries</h2>
-          <img src="fries.jpg" alt="French fries" class="food-image">
-          <p>Delicious fries to go with your burger.</p>
-        </div>
-        <div>
-          <h2>Onion Rings</h2>
-          <img src="onion-rings.jpg" alt="Onion rings" class="food-image">
-          <p>Delicious onion rings to go with your burger.</p>
-        </div>
-        <div>
-          <h2>Salad</h2>
-          <img src="salad.jpg" alt="Fresh salad" class="food-image">
-          <p>Delicious salad to go with your burger.</p>
-        </div>
-      </section>
+<h1>Burgers</h1>
+<section class="menu-grid">
+
+  <fieldset class="menu-item">
+    <legend>Classic Burger</legend>
+    <img src="classic-burger.webp" alt="Classic burger" class="food-image">
+    <p>A delicious burger with all the fixings.</p>
+  </fieldset>
+
+  <fieldset class="menu-item">
+    <legend>Chicken Burger</legend>
+    <img src="chicken-burger.webp" alt="Chicken burger" class="food-image">
+    <p>A delicious chicken burger with all the fixings.</p>
+  </fieldset>
+
+  <fieldset class="menu-item">
+    <legend>Vegetarian Burger</legend>
+    <img src="vegetarian-burger.jpg" alt="Vegetarian burger" class="food-image">
+    <p>A delicious vegetarian burger with all the fixings.</p>
+  </fieldset>
+
+</section>
+
+
+
+<h1>Side Dishes</h1>
+<section class="menu-grid">
+
+  <fieldset class="menu-item">
+    <legend>Fries</legend>
+    <img src="fries.jpg" alt="French fries" class="food-image">
+    <p>Delicious fries to go with your burger.</p>
+  </fieldset>
+
+  <fieldset class="menu-item">
+    <legend>Onion Rings</legend>
+    <img src="onion-rings.jpg" alt="Onion rings" class="food-image">
+    <p>Delicious onion rings to go with your burger.</p>
+  </fieldset>
+
+  <fieldset class="menu-item">
+    <legend>Salad</legend>
+    <img src="salad.jpg" alt="Fresh salad" class="food-image">
+    <p>Delicious salad to go with your burger.</p>
+  </fieldset>
+
+</section>
+
     </main>
 
     <footer>
